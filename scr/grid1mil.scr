@@ -1,0 +1,26 @@
+# Allegro script
+#	file: D:/pcb_hugo/PurpleRiver/HI3516DV300/SGCC_B/PCB/grid1.scr
+#	start time: Mon Dec 28 14:01:47 2020
+#	Version: 16.6-2015 S112 (v16-6-112JB) Windows 32
+version 16.6
+
+setwindow pcb
+trapsize 1863
+generaledit
+prmed 
+setwindow form.prmedit
+FORM prmedit view_grids_button  
+setwindow form.grid
+FORM grid display NO 
+FORM grid display YES 
+FORM grid non_etch non_etch_x_grids 1 
+FORM grid non_etch non_etch_y_grids 1 
+FORM grid all_etch all_etch_x_grids '1 1 1 1' 
+FORM grid all_etch all_etch_y_grids '1 1 1 1' 
+FORM grid done  
+setwindow form.prmedit
+FORM prmedit done  
+setwindow pcb
+generaledit 
+
+#	stop time: Mon Dec 28 14:02:21 2020

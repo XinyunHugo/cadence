@@ -1,0 +1,26 @@
+version 17.4
+generaledit
+color -globvis off
+
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "BOARD GEOMETRY/CUTOUT"
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+
+color -vis "ETCH/TOP"
+color -vis "PIN/TOP"
+color -vis "VIA CLASS/TOP"
+
+color -vis "ROUTE KEEPOUT/ALL"
+color -vis "ROUTE KEEPOUT/TOP"
+color -vis "ROUTE KEEPIN/ALL"
+
+
+color -vis "DRC/TOP"
+color -vis "ANTI ETCH/TOP"
+
+setwindow form.mini
+FORM mini class ETCH 
+FORM mini subclass TOP 
+redraw
+
+#	stop time: Mon Dec 28 13:59:54 2020

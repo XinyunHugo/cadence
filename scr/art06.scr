@@ -1,0 +1,26 @@
+version 17.4
+generaledit
+color -globvis off
+
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "BOARD GEOMETRY/CUTOUT"
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+
+color -vis "ETCH/BOTTOM"
+color -vis "PIN/BOTTOM"
+color -vis "VIA CLASS/BOTTOM"
+
+color -vis "ROUTE KEEPOUT/ALL"
+color -vis "ROUTE KEEPOUT/BOTTOM"
+color -vis "ROUTE KEEPIN/ALL"
+
+
+color -vis "DRC ERROR CLASS/BOTTOM"
+color -vis "ANTI ETCH/BOTTOM"
+
+setwindow form.mini
+FORM mini class ETCH 
+FORM mini subclass BOTTOM
+redraw
+
+#	sBOTTOM time: Mon Dec 28 13:59:54 2020

@@ -1,0 +1,19 @@
+version 17.4
+
+placementedit
+
+color -globvis off
+
+color -vis "PIN/TOP"
+color -vis "PACKAGE GEOMETRY/SILKSCREEN_TOP"
+color -vis "BOARD GEOMETRY/SILKSCREEN_TOP"
+
+color -vis "BOARD GEOMETRY/CUTOUT"
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+color -vis "BOARD GEOMETRY/OUTLINE"
+
+color -vis "ROUTE KEEPOUT/ALL"
+color -vis "ROUTE KEEPOUT/TOP"
+color -vis "ROUTE KEEPIN/ALL"
+
+redraw

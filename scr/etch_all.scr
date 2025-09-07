@@ -1,0 +1,7 @@
+version 17.4
+color -globvis off
+color192 
+QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor
+QtSignal CVDLayerSplitter CVDLayerTable allBoxClicked
+QtSignal ColorVisibilityDialog CVDApplyButton clicked
+QtSignal ColorVisibilityDialog CVDOkButton clicked

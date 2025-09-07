@@ -1,0 +1,22 @@
+version 17.4
+
+placementedit
+
+color -globvis off
+
+color -vis "PIN/BOTTOM"
+color -vis "VIA CLASS/BOTTOM"
+
+color -vis "PACKAGE GEOMETRY/SILKSCREEN_BOTTOM"
+color -vis "BOARD GEOMETRY/SILKSCREEN_BOTTOM"
+color -vis "COMPONENT VALUE/SILKSCREEN_BOTTOM"
+
+color -vis "BOARD GEOMETRY/CUTOUT"
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+color -vis "BOARD GEOMETRY/OUTLINE"
+
+color -vis "ROUTE KEEPOUT/ALL"
+color -vis "ROUTE KEEPOUT/BOTTOM"
+color -vis "ROUTE KEEPIN/ALL"
+
+redraw

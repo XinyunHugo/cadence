@@ -1,0 +1,46 @@
+#D:\Programs\Cadence\SPB_17.4\share\pcb\text\env
+#-----------------define 2025/9/06-HUGO-------
+funckey E move 
+funckey R angle 90
+funckey T assign color
+funckey F mirror
+funckey Q rats net
+funckey W unrats net
+funckey ' ' done
+funckey G shape add
+funckey H shape edit boundary
+
+funckey 1 replay D:\pcb\pcblib\scr\art01.scr
+funckey 2 replay D:\pcb\pcblib\scr\art02.scr
+funckey 3 replay D:\pcb\pcblib\scr\art03.scr
+funckey 4 replay D:\pcb\pcblib\scr\art04.scr
+funckey 5 replay D:\pcb\pcblib\scr\art05.scr
+funckey 6 replay D:\pcb\pcblib\scr\art06.scr
+funckey 7 replay D:\pcb\pcblib\scr\art07.scr
+funckey 8 replay D:\pcb\pcblib\scr\art08.scr
+funckey 9 replay D:\pcb\pcblib\scr\all.scr
+funckey 0 replay D:\pcb\pcblib\scr\etch_all.scr
+##FOR CTRL
+alias ~1 replay D:\pcb\pcblib\scr\adt.scr
+alias ~2 replay D:\pcb\pcblib\scr\adb.scr
+alias ~3 replay D:\pcb\pcblib\scr\ref_top.scr
+alias ~4 replay D:\pcb\pcblib\scr\ref_bot.scr
+alias ~5 replay D:\pcb\pcblib\scr\val_top.scr
+alias ~6 replay D:\pcb\pcblib\scr\val_bot.scr
+alias ~7 replay D:\pcb\pcblib\scr\ref_all.scr
+alias ~8 replay D:\pcb\pcblib\scr\val_all.scr
+##alias ~9 replay D:\pcb\pcblib\scr\silk_top.scr
+##alias ~0 replay D:\pcb\pcblib\scr\silk_bot.scr
+##FOR ALT
+alias A1 replay D:\pcb\pcblib\scr\grid1mil.scr
+alias A2 replay D:\pcb\pcblib\scr\grid5mil.scr
+alias A3 replay D:\pcb\pcblib\scr\place.scr
+alias A4 replay D:\pcb\pcblib\scr\gerber.scr
+alias A5 replay D:\pcb\pcblib\scr\set_font.scr
+##alias A6 replay D:\pcb\pcblib\scr\smt-val.scr
+##alias A7 replay D:\pcb\pcblib\scr\adt.scr
+##alias A8 replay D:\pcb\pcblib\scr\adb.scr
+##alias A9 replay D:\pcb\pcblib\scr\all.scr
+##alias A0 replay D:\pcb\pcblib\scr\all.scr
+
+#-------------end-define 2025/9/06-HUGO-------

@@ -1,0 +1,26 @@
+version 17.4
+generaledit
+color -globvis off
+
+color -vis "BOARD GEOMETRY/OUTLINE"
+color -vis "BOARD GEOMETRY/CUTOUT"
+color -vis "BOARD GEOMETRY/DESIGN_OUTLINE"
+
+color -vis "ETCH/ART07"
+color -vis "PIN/ART07"
+color -vis "VIA CLASS/ART07"
+
+color -vis "ROUTE KEEPOUT/ALL"
+color -vis "ROUTE KEEPOUT/ART07"
+color -vis "ROUTE KEEPIN/ALL"
+
+
+color -vis "DRC ERROR CLASS/ART07"
+color -vis "ANTI ETCH/ART07"
+
+setwindow form.mini
+FORM mini class ETCH 
+FORM mini subclass ART07 
+redraw
+
+#	sART07 time: Mon Dec 28 13:59:54 2020

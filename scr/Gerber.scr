@@ -1,0 +1,79 @@
+# Allegro script
+#	file: D:/pcb_hugo/PurpleRiver/RK3568/ex_board/sensor_owl_UNI_T/pcb/Gerber.scr
+#	start time: Fri Aug 20 17:02:56 2021
+#	Version: 17.4-2019 S018 (3945310) Windows SPB 64-bit Edition
+version 17.4
+
+setwindow pcb
+trapsize 998
+generaledit
+ncdrill customization 
+generaledit 
+setwindow form.nc_drillcustomization
+FORM nc_drillcustomization auto_symbols  
+fillin yes 
+FORM nc_drillcustomization done  
+fillin yes 
+setwindow pcb
+ncdrill legend 
+setwindow form.nc_drilllegend
+FORM nc_drilllegend backdrill_legends YES 
+FORM nc_drilllegend done  
+
+ncdrill param 
+generaledit 
+setwindow form.nc_parameters
+FORM nc_parameters enhanced_format YES 
+FORM nc_parameters done  
+setwindow pcb
+nctape_full 
+setwindow form.nc_drill
+FORM nc_drill auto_tool_select YES 
+FORM nc_drill execute  
+FORM nc_drill close  
+setwindow pcb
+generaledit 
+ncroute 
+setwindow form.nc_route
+FORM nc_route execute  
+FORM nc_route close  
+setwindow pcb
+generaledit 
+artwork 
+setwindow form.film_control
+FORM film_control general_parameters  
+FORM film_control format_int_places 5 
+FORM film_control apertures  
+setwindow form.apt_wheels
+FORM apt_wheels 1 delete  
+FORM apt_wheels add_wheel  
+FORM apt_wheels 1 edit  
+setwindow form.apt_stations
+FORM apt_stations auto 'With Rotation' 
+FORM apt_stations apt_done  
+setwindow form.apt_wheels
+FORM apt_wheels done  
+setwindow form.film_control
+FORM film_control ok  
+setwindow pcb
+generaledit 
+artwork 
+setwindow form.film_control
+FORM film_control select_all  
+FORM film_control create  
+fillin yes 
+setwindow text
+close
+setwindow form.film_control
+FORM film_control ok  
+setwindow pcb
+generaledit 
+
+
+plctxt out 
+setwindow form.plctxt
+FORM plctxt body_center YES 
+FORM plctxt execute  
+FORM plctxt cancel  
+
+#	stop time: Fri Aug 20 17:04:37 2021
